@@ -39,7 +39,7 @@ jobs:
       - name: Download artifact from another repo
         uses: dawidd6/action-download-artifact@v6
         with:
-        repo: gdagosto/blog-preview
+          repo: gdagosto/blog-preview
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
