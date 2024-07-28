@@ -43,8 +43,10 @@ jobs:
           repo: gdagosto/blog-teste
           run_id: 10127556607
           path: ./public
-      - name: Deploy preview
-        uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: ./public
+      - name: List files
+        run: ls
+      # - name: Deploy preview
+      #   uses: rossjrw/pr-preview-action@v1
+      #   with:
+      #     source-dir: ./public
 
