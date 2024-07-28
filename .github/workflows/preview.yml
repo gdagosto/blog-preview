@@ -41,6 +41,7 @@ jobs:
         uses: dawidd6/action-download-artifact@v6
         with:
           repo: gdagosto/blog-teste
+          run_id: 10127556607
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
