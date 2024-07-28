@@ -44,7 +44,7 @@ jobs:
           run_id: 10127556607
           path: ./public
       - name: List files
-        run: ls
+        run: cd public && ls
       # - name: Deploy preview
       #   uses: rossjrw/pr-preview-action@v1
       #   with:
