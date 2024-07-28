@@ -42,6 +42,7 @@ jobs:
         with:
           repo: gdagosto/blog-teste
           run_id: 10127556607
+          path: ./public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
